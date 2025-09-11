@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 72px;
+  position: relative;
+  background-color: var(--badge);
+}
+
+.logo {
+  position: absolute;
+  left: 64px;
+  top: 28px;
+  width: 135px;
+}
+.nav {
+  position: absolute;
+  left: 650px;
+  top: 24px;
+  width: 138px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+  font-weight: 500;
+}
+
+.active {
+  color: var(--button-hover);
+}
