@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  background-color: var(--white);
+  width: 888px;
+  height: 1568px;
+  gap: 32px;
+}
+
+.card {
+  border: 1px solid var(--gray-light);
+  border-radius: 10px;
+  width: 888px;
+  height: 368px;
+  padding: 24px;
+}
